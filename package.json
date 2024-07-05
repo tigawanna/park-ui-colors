@@ -1,0 +1,38 @@
+{
+  "name": "park-ui-colors",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "postinstall": "panda codegen",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ark-ui/react": "3.5.0",
+    "@park-ui/panda-preset": "^0.38.1",
+    "cheerio": "1.0.0-rc.12",
+    "lucide-react": "0.400.0",
+    "pandacss-preset-typography": "0.1.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-live": "4.1.7",
+    "ts-pattern": "5.2.0",
+    "zustand": "4.5.4"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "0.41.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}
