@@ -7,7 +7,7 @@ import {
   type GrayColor,
 } from '@park-ui/panda-preset'
 import { useEffect } from 'react'
-import { token } from 'styled-system/tokens'
+import { token } from '../../styled-system/tokens'
 import { match } from 'ts-pattern'
 import { cssFrameworks, jsFrameworks, useThemeStore } from './use-theme-store'
 
