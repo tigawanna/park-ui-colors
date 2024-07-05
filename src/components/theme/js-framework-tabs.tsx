@@ -1,5 +1,5 @@
 import { Stack } from 'styled-system/jsx'
-import { FormLabel, Tabs } from '~/components/ui'
+import { FormLabel, Tabs } from '~/components/park/ui'
 import { useThemeGenerator } from '~/lib/use-theme-generator'
 import type { JSFramework } from '~/lib/use-theme-store'
 

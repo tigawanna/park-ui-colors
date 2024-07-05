@@ -5,8 +5,8 @@ import { css, cx } from 'styled-system/css'
 import { splitCssProps } from 'styled-system/jsx'
 import { type PaginationVariantProps, pagination } from 'styled-system/recipes'
 import type { JsxStyleProps } from 'styled-system/types'
-import { Button } from '~/components/ui/button'
-import { IconButton } from '~/components/ui/icon-button'
+import { Button } from '~/components/park/ui/button'
+import { IconButton } from '~/components/park/ui/icon-button'
 
 export interface PaginationProps
   extends Assign<JsxStyleProps, PaginationRootProps>,

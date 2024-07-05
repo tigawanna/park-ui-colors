@@ -1,8 +1,8 @@
 import { CopyIcon, XIcon } from 'lucide-react'
 import { Box, Stack } from 'styled-system/jsx'
-import { Button, Dialog, IconButton } from '~/components/ui'
+import { Button, Dialog, IconButton } from '~/components/park/ui'
 import { useThemeGenerator } from '~/lib/use-theme-generator'
-import { CodePreview } from '../code-preview'
+import { CodePreview } from './code-preview'
 
 interface Props {
   panda?: JSX.Element

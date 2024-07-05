@@ -1,6 +1,6 @@
 import { Circle, Stack } from 'styled-system/jsx'
 import { token } from 'styled-system/tokens'
-import { RadioButtonGroup, Text } from '~/components/ui'
+import { RadioButtonGroup, Text } from '~/components/park/ui'
 import { useThemeGenerator } from '~/lib/use-theme-generator'
 
 export const GrayColorPicker = () => {

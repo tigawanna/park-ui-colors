@@ -1,4 +1,4 @@
-import { Slider } from '~/components/ui/slider'
+import { Slider } from '~/components/park/ui/slider'
 import { useThemeGenerator } from '~/lib/use-theme-generator'
 
 export const BorderRadiusSlider = () => {

@@ -1,6 +1,6 @@
 import { CopyIcon, MoreVerticalIcon, RotateCcwIcon } from 'lucide-react'
 import { HStack } from 'styled-system/jsx'
-import { IconButton, Menu } from '~/components/ui'
+import { IconButton, Menu } from '~/components/park/ui'
 
 type Props = {
   onReset: () => void
